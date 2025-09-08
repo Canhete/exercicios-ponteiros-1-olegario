@@ -11,7 +11,7 @@ void main(){
     }
     for(i=0; i<5; i++){
         if(vetor[i]%2==0){
-            printf("%d: ",i+1);
+            printf("%d: ",i);
             printf("%d --> ", vetor[i]);
             printf("[%p]\n", end[i]);
         }
